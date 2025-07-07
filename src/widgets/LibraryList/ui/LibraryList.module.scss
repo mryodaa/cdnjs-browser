@@ -1,0 +1,49 @@
+.librariesCount {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ff6934;
+  margin-bottom: 1.25rem;
+  text-align: center;
+}
+
+.libraries {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  align-items: center;
+}
+
+.paginationWrapper {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notFoundBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  //   gap: 1rem;
+}
+
+.boxIcon {
+  max-width: 20rem;
+  width: 100%;
+}
+
+.boxIconLabel {
+  font-size: 2rem;
+  color: #ff8153;
+  font-weight: 700;
+}
+
+.loaderWrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10rem;
+}

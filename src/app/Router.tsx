@@ -4,7 +4,7 @@ import { LibrariesPage } from "@/pages/LibrariesPage";
 
 function Router() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/cdnjs-browser/">
       <Routes>
         <Route path="/" element={<LibrariesPage />} />
       </Routes>
